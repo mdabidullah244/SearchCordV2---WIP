@@ -1,0 +1,80 @@
+Development for SearchCord Discord Bot
+
+--- GENERAL ---
+What does the Bot do?
+    - Allows users to search up any anime, manga, and characters. Will feature storing previous information onto a database to not stress the API
+    - Allows users to send interactive gifs to one another to to express ones emotions
+
+Future development will include the addition of a database to store user information on
+favoriate anime, manga, character, anime/manga watched, watching, to watch.    
+Most importantly, will include a database that keeps count of the commands being used, will be used for statistics
+This is so I can do something with the most popular commands. Maybe leave it in the hints within the embeds?
+--- GENERAL END ---
+
+
+--- TO DO ---
+Finish working on profile commands: DONE
+    - Get user profile: get_profile, [DONE]
+    - Create profile user: create_profile, [DONE]
+    - Edit user profile: edit_profile, [DONE]
+    - Delete user profile: del_profile, [DONE]
+
+Finish working on Anime/Manga (entries) commands:
+    - Add Anime to user's Anime entries: add_anime, [WIP]
+    - Add Manga to user's Manga entries: add_manga, [WIP]
+    - Remove Anime from user's Anime entries: remove_anime, [WIP]
+    - Remove Manga from user's Manga entries, remove_manga, [WIP]
+--- TO DO END ---
+
+
+------- COMMANDS -------
+--- PROFILE COMMAND ---
+Name: profile
+Description: lets user check their own profile and is a way to create a profile if they don't have one
+Status: DONE 
+Logic: 
+--- PROFILE COMMAND END ---
+
+--- EDIT COMMAND ---
+Name: edit
+Description: allows the user to edit their profile information, only username, bio, and status
+Status: DONE
+Logic: 
+--- EDIT COMMAND END ---
+
+--- DELETE COMMAND ---
+Name: delete
+Description: deletes the user's profile
+Status: DONE
+Logic: 
+--- DELETE COMMAND END ---
+
+--- VIEW COMMAND ---
+Name: view
+Description: allows the user to view another person's profile.
+Status: 
+Logic: 
+--- VIEW COMMAND END ---
+
+
+--- SETTINGS ---
+Name: 
+Description: 
+Status: 
+Logic: 
+--- SETTINGS END ---
+
+--- SEARCH COMMAND ---
+SEARCH
+Name: 
+Description: 
+Status: 
+Logic: 
+--- SEARCH COMMAND END ---
+------- COMMANDS END -------
+
+--- OTHER IDEAS ---
+    interaction commands (hug, punch, pat, etc)
+    depending on each command, they will either be able to send it to another person, the bot, or to themselves
+    this is better then having one interaction command with a selection menu
+    will store the gifs onto the database to not stress the API
